@@ -1,9 +1,10 @@
 module.exports = {
-	port: GNZ_PORT || '8080',
+	port: process.env.GNZ_PORT || '8080',
 	sql: {
-		host: GNZ_HOST,
-		user: GNZ_USER,
-		pass: GNZ_PASS,
-		db: GNZ_DB
+		host: process.env.GNZ_HOST || '127.0.0.1',
+		user: process.env.GNZ_USER || 'root',
+		pass: process.env.GNZ_PASS || '',
+		db: process.env.GNZ_DB || 'groupnomz',
+		dialect: process.env.GNZ_DIALECT || 'sqlite'
 	}
 };
