@@ -29,3 +29,6 @@ node_modules
 
 # Meta files
 meta
+
+# config file
+app/config/config_local.js

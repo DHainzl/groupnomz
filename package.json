@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/DHainzl/groupnomz",
   "dependencies": {
-    "express": "^4.10.4"
+    "express": "^4.10.4",
+    "sequelize": "^2.0.0-rc2",
+    "sequelize-cli": "^0.3.3",
+    "sqlite3": "^3.0.4"
   }
 }
