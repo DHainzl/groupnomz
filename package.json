@@ -1,0 +1,26 @@
+{
+  "name": "groupnomz",
+  "version": "0.0.1",
+  "description": "Cook together, eat together - manage it together!",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DHainzl/groupnomz.git"
+  },
+  "keywords": [
+    "eat",
+    "nomz"
+  ],
+  "author": "David Hainzl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DHainzl/groupnomz/issues"
+  },
+  "homepage": "https://github.com/DHainzl/groupnomz",
+  "dependencies": {
+    "express": "^4.10.4"
+  }
+}
