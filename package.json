@@ -2,7 +2,7 @@
   "name": "groupnomz",
   "version": "0.0.1",
   "description": "Cook together, eat together - manage it together!",
-  "main": "public/index.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

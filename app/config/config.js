@@ -1,12 +1,9 @@
-module.exports = require('./config_local.js');
-return;			// TODO Use below if you cloned the repo
-
 module.exports = {
-	port: 8000,
+	port: GNZ_PORT || '8080',
 	sql: {
-		host: '127.0.0.1',
-		user: 'user',
-		pass: 'pass',
-		db: 'groupnomz'
+		host: GNZ_HOST,
+		user: GNZ_USER,
+		pass: GNZ_PASS,
+		db: GNZ_DB
 	}
 };
